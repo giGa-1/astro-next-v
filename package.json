@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nodetoy/react-nodetoy": "^0.1.23",
     "@react-three/drei": "^9.54.1",
     "@react-three/fiber": "^8.10.1",
     "@react-three/postprocessing": "^2.7.0",
@@ -20,7 +19,12 @@
     "react-dom": "18.2.0",
     "react-input-mask": "^2.0.4",
     "react-redux": "^8.0.5",
+    "react-text-mask": "^5.5.0",
     "three": "^0.148.0",
     "three-stdlib": "^2.21.6"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "typescript": "5.0.4"
   }
 }

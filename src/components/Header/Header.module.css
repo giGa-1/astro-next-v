@@ -1,0 +1,92 @@
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+    height: 65px;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 15px 15px 0 15px;
+}
+
+.leftBlock, .rightBlock {
+    /* filter: blur(15px); */
+    position: relative;
+    height: 100%;
+    display: flex;
+    padding: 0 35px;
+    border-radius: 10px;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.blur {
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6a6a6a30;
+    border-radius: 10px;
+
+}
+
+
+.text, .changeText {
+    color: #fff;
+}
+
+.changeText {
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+
+.text {
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.changeColorBlock {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 15px;
+    align-items: center;
+}
+
+.input {
+    color: #fff !important;
+    font-size: 17px;
+    letter-spacing: 1px;
+    max-width: 80px;
+}
+
+.input::placeholder {
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.changeCube {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius:2px;
+    width: 22px;
+    height: 22px;
+
+}
